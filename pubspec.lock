@@ -242,6 +242,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.2"
+  perfil:
+    dependency: transitive
+    description:
+      path: "."
+      ref: master
+      resolved-ref: "545fdbbb99b38b64751921021cc4e88bce0218d9"
+      url: "https://github.com/JuliaMStahl/perfil.git"
+    source: git
+    version: "0.0.2"
   process_run:
     dependency: transitive
     description:

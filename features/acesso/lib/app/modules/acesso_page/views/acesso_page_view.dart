@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:routes_lib/app_pages.dart';
 import '../controllers/acesso_page_controller.dart';
 
 class AcessoPageView extends GetView<AcessoPageController> {
@@ -59,10 +60,12 @@ class AcessoPageView extends GetView<AcessoPageController> {
                 ),
                 const SizedBox(height: 20),
                 ElevatedButton(
-                  onPressed: () {},
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.pink.shade800
+                  onPressed: () => Get.toNamed(
+                    RedirectTo.ROUTES_PERFIL,
+                    arguments: controller.usuarioController.text,
                   ),
+                  style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.pink.shade800),
                   child: Text('Entrar'.toUpperCase()),
                 )
               ],
