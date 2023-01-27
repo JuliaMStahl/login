@@ -5,7 +5,7 @@ import 'package:routes_lib/app_pages.dart';
 void main() {
   runApp(GetMaterialApp(
     debugShowCheckedModeBanner: false,
-    initialRoute: RedirectTo.ROUTES_ACESSO,
+    initialRoute: RedirectTo.ROUTES_PERFIL,
     getPages: AppPages.routes,
   ));
 }

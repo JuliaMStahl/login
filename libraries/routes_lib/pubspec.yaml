@@ -15,9 +15,9 @@ dependencies:
   acesso:
     path: ../../features/acesso
 
-  perfil:
+  dependency_manager:
     git:
-      url: https://github.com/JuliaMStahl/perfil.git
+      url: https://github.com/JuliaMStahl/dependency-manager.git
       ref: master
 
 dev_dependencies:

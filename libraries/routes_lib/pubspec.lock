@@ -113,6 +113,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.2.4"
+  dependency_manager:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: master
+      resolved-ref: "64d43cdb8c5ed91cde2017ad470f99b3162b5ecc"
+      url: "https://github.com/JuliaMStahl/dependency-manager.git"
+    source: git
+    version: "0.0.1"
   fake_async:
     dependency: transitive
     description:
@@ -236,7 +245,7 @@ packages:
     source: hosted
     version: "1.8.2"
   perfil:
-    dependency: "direct main"
+    dependency: transitive
     description:
       path: "."
       ref: master
