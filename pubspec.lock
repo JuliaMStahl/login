@@ -11,9 +11,11 @@ packages:
   acesso:
     dependency: transitive
     description:
-      path: "features/acesso"
-      relative: true
-    source: path
+      path: "."
+      ref: master
+      resolved-ref: "3b9ad6ab7edd042d0eb49d50c78a2fc13f608d64"
+      url: "https://github.com/JuliaMStahl/acesso.git"
+    source: git
     version: "0.0.1"
   analyzer:
     dependency: transitive
@@ -120,6 +122,24 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.2.4"
+  dashboard:
+    dependency: transitive
+    description:
+      path: "."
+      ref: main
+      resolved-ref: "180f739a3282c23bdf532374162e42c8d5b508e0"
+      url: "https://github.com/JuliaMStahl/dashboard.git"
+    source: git
+    version: "0.0.1"
+  dependency_manager:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: master
+      resolved-ref: aa58c21c45c4479a8b0c7c645976d418ba4359f8
+      url: "https://github.com/JuliaMStahl/dependency-manager.git"
+    source: git
+    version: "0.0.1"
   fake_async:
     dependency: transitive
     description:
@@ -287,11 +307,13 @@ packages:
     source: hosted
     version: "4.1.0"
   routes_lib:
-    dependency: "direct main"
+    dependency: transitive
     description:
-      path: "libraries/routes_lib"
-      relative: true
-    source: path
+      path: "."
+      ref: master
+      resolved-ref: "8c8dd7d4ce2c03e136cd0405ff4f97cd91bea8cd"
+      url: "https://github.com/JuliaMStahl/routes_lib.git"
+    source: git
     version: "0.0.1"
   sky_engine:
     dependency: transitive

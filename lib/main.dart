@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:routes_lib/app_pages.dart';
+import 'package:dependency_manager/dependency_manager.dart';
 
 void main() {
   runApp(GetMaterialApp(
     debugShowCheckedModeBanner: false,
-    initialRoute: RedirectTo.ROUTES_PERFIL,
+    initialRoute: RedirectTo.ROUTES_ACESSO,
     getPages: AppPages.routes,
   ));
 }
