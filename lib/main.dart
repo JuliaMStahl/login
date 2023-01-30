@@ -7,5 +7,7 @@ void main() {
     debugShowCheckedModeBanner: false,
     initialRoute: RedirectTo.ROUTES_ACESSO,
     getPages: AppPages.routes,
+    translationsKeys: AppTranslation.translations,
+    locale: const Locale("pt", "BR"),
   ));
 }

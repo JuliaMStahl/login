@@ -13,7 +13,7 @@ packages:
     description:
       path: "."
       ref: master
-      resolved-ref: "3b9ad6ab7edd042d0eb49d50c78a2fc13f608d64"
+      resolved-ref: ed499d7a2296120a00b8f0f5d982aefe2e9e6312
       url: "https://github.com/JuliaMStahl/acesso.git"
     source: git
     version: "0.0.1"
@@ -127,7 +127,7 @@ packages:
     description:
       path: "."
       ref: main
-      resolved-ref: "180f739a3282c23bdf532374162e42c8d5b508e0"
+      resolved-ref: acc18aac195f7a672a4ba04c9de0a1fcb210a368
       url: "https://github.com/JuliaMStahl/dashboard.git"
     source: git
     version: "0.0.1"
@@ -136,7 +136,7 @@ packages:
     description:
       path: "."
       ref: master
-      resolved-ref: aa58c21c45c4479a8b0c7c645976d418ba4359f8
+      resolved-ref: "745e74b45ed38488457761b381b128e984a03c67"
       url: "https://github.com/JuliaMStahl/dependency-manager.git"
     source: git
     version: "0.0.1"
@@ -267,7 +267,7 @@ packages:
     description:
       path: "."
       ref: master
-      resolved-ref: "545fdbbb99b38b64751921021cc4e88bce0218d9"
+      resolved-ref: e0861ad872ec8f0343c3aac40f5fb6823e1a80c5
       url: "https://github.com/JuliaMStahl/perfil.git"
     source: git
     version: "0.0.2"
@@ -369,6 +369,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.12"
+  translation_lib:
+    dependency: transitive
+    description:
+      path: "."
+      ref: master
+      resolved-ref: b38f829028e29e6631de4f79e902ce1728341214
+      url: "https://github.com/JuliaMStahl/translation_lib.git"
+    source: git
+    version: "0.0.1"
   typed_data:
     dependency: transitive
     description:
