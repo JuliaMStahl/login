@@ -13,7 +13,7 @@ packages:
     description:
       path: "."
       ref: master
-      resolved-ref: ed499d7a2296120a00b8f0f5d982aefe2e9e6312
+      resolved-ref: "892bc41a2fd937958180b8241c120d2f4cffb669"
       url: "https://github.com/JuliaMStahl/acesso.git"
     source: git
     version: "0.0.1"
@@ -127,7 +127,7 @@ packages:
     description:
       path: "."
       ref: main
-      resolved-ref: acc18aac195f7a672a4ba04c9de0a1fcb210a368
+      resolved-ref: ed5ddbe4827a98fefe10ad2f9a59aa8bb654a919
       url: "https://github.com/JuliaMStahl/dashboard.git"
     source: git
     version: "0.0.1"
@@ -136,7 +136,7 @@ packages:
     description:
       path: "."
       ref: master
-      resolved-ref: "745e74b45ed38488457761b381b128e984a03c67"
+      resolved-ref: "72be2d9b9a93d4209b39e3d07240ad470c6e5fef"
       url: "https://github.com/JuliaMStahl/dependency-manager.git"
     source: git
     version: "0.0.1"
@@ -313,6 +313,15 @@ packages:
       ref: master
       resolved-ref: "8c8dd7d4ce2c03e136cd0405ff4f97cd91bea8cd"
       url: "https://github.com/JuliaMStahl/routes_lib.git"
+    source: git
+    version: "0.0.1"
+  shared_lib:
+    dependency: transitive
+    description:
+      path: "."
+      ref: master
+      resolved-ref: "59f0ec5754d2168bcfb08e8192596464a20bf43c"
+      url: "https://github.com/JuliaMStahl/shared_lib.git"
     source: git
     version: "0.0.1"
   sky_engine:
