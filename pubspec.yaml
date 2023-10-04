@@ -13,13 +13,15 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-  get: ^4.6.5
-  get_cli: ^1.8.1
-
-  dependency_manager:
+  flutter_modular: ^6.3.2
+  acesso:
     git:
-      url: https://github.com/JuliaMStahl/dependency-manager.git
-      ref: master
+      url: https://github.com/JuliaMStahl/acesso.git
+      ref: modular
+  dashboard:
+    git:
+      url: https://github.com/JuliaMStahl/dashboard.git
+      ref: modular
 
 dev_dependencies:
   flutter_test:

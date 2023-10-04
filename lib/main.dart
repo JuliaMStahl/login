@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:dependency_manager/dependency_manager.dart';
+import 'package:flutter_modular/flutter_modular.dart';
+import 'package:login/app_widget.dart';
+
+import 'app_module.dart';
 
 void main() {
-  runApp(GetMaterialApp(
-    debugShowCheckedModeBanner: false,
-    initialRoute: RedirectTo.ROUTES_ACESSO,
-    getPages: AppPages.routes,
-    translationsKeys: AppTranslation.translations,
-    locale: const Locale("pt", "BR"),
-  ));
+  runApp(ModularApp(module: AppModule(), child: const AppWidget()));
 }
